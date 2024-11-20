@@ -1,132 +1,161 @@
 @charset "UTF-8";
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    padding: 5%;
-    background-color: #fff;
-}
-
-a {
-    color: #fff;
+  padding: 5%;
+  background-color: #e5ffff;
 }
 
 header {
-    padding: 5px;
-    text-align: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  color: #e84a4a;
+}
+
+.yearlist {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  border: #3983fb solid 1px;
+  padding: 5px;
+}
+
+.yearlist a {
+  color: #3983fb;
+  text-decoration: none;
+}
+
+.container_summer a,
+.container_spring a {
+  color: #fff;
 }
 
 .container_summer {
-    padding-bottom: 5%;
-    margin-bottom: 30px;
-    border: 2px solid green;
+  padding-bottom: 5%;
+  margin-bottom: 30px;
+  border: 2px solid #3983fb;
+  background-color: #fff;
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .result {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .title_summer {
-    background-color: green;
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 20px;
-    padding: 5px;
+  background-color: #3983fb;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  padding: 5px;
+  scroll-margin-top: 20px;
 }
 
 .table_summer {
-    font-size: 14px;
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
-    border-collapse: collapse
+  font-size: 14px;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  border-collapse: collapse;
 }
 
 .col_summer {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .col_summer h3 {
-    font-size: 16px;
-    margin: 0 auto 10px;
-    background-color: green;
-    color: #fff;
-    width: 25%;
+  font-size: 16px;
+  margin: 0 auto 10px;
+  background-color: #3983fb;
+  color: #fff;
+  width: 25%;
 }
 
 .container_spring {
-    padding-bottom: 5%;
-    margin-bottom: 30px;
-    border: 2px solid #ff73da;
+  padding-bottom: 5%;
+  margin-bottom: 30px;
+  border: 2px solid #e3a0e7;
+  background-color: #fff;
 }
 
 .title_spring {
-    background-color: #ff73da;
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 20px;
-    padding: 5px;
+  background-color: #e3a0e7;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  padding: 5px;
 }
 
 .table_spring {
-    font-size: 14px;
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
-    border-collapse: collapse
+  font-size: 14px;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  border-collapse: collapse;
 }
 
 .col_spring {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .col_spring h3 {
-    font-size: 16px;
-    margin: 0 auto 10px;
-    background-color: #ff73da;
-    color: #fff;
-    width: 25%;
+  font-size: 16px;
+  margin: 0 auto 10px;
+  background-color: #e3a0e7;
+  color: #fff;
+  width: 25%;
 }
 
 .col_spring p,
 .col_summer p {
-    margin: 0 8px;
+  margin: 0 8px;
 }
 
 .col_wrap {
-    display: flex;
-    margin: 5px auto;
-    justify-content: center;
+  display: flex;
+  margin: 5px auto;
+  justify-content: center;
 }
 
 .text-small {
-    font-size: 9px;
+  font-size: 9px;
 }
 
-.table_summer td,.table_spring td {
-    padding: 2px;
+.table_summer td,
+.table_spring td {
+  padding: 2px;
 }
 
 .gray {
-    background-color: #eee;
+  background-color: #eee;
 }
 
 .light_green {
-    background-color: #9ce8bb;
+  background-color: #a4d7fe;
 }
 
 .light_pink {
-    background-color: #fdace8;
+  background-color: #fdace8;
+}
+
+footer {
+  text-align: center;
 }
