@@ -28,12 +28,29 @@ header h1 {
   width: 100%;
   margin: 0 auto;
   border: #3983fb solid 1px;
-  padding: 5px;
+  cursor: pointer;
 }
 
 .yearlist a {
   color: #3983fb;
   text-decoration: none;
+}
+
+.tab {
+  background-color: #f9f9f9;
+  width: 25%;
+  padding: 5px;
+  border-right: #3983fb solid 1px;
+}
+
+.tab:last-child {
+  border-right: none;
+}
+
+.tab.active {
+  background-color: #3983fb;
+  color: #fff;
+  font-weight: bold;
 }
 
 .container_summer a,
@@ -142,6 +159,14 @@ header h1 {
 .table_summer td,
 .table_spring td {
   padding: 2px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
 }
 
 .gray {
