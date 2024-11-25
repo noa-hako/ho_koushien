@@ -7,7 +7,6 @@
 }
 
 body {
-  padding: 5%;
   background-color: #e5ffff;
 }
 
@@ -17,8 +16,13 @@ header {
 }
 
 header h1 {
-  margin-bottom: 10px;
-  color: #e84a4a;
+  background: url(./images/sky.jpg) no-repeat center / cover;
+  height: 180px;
+  padding: 30px 10px;
+}
+
+main {
+  margin: 30px 5% 0;
 }
 
 .navlist {
@@ -27,6 +31,7 @@ header h1 {
   bottom: 0;
   left: 0;
   height: 50px;
+  z-index: 10;
 }
 
 .yearlist {
@@ -79,6 +84,35 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.carry {
+  margin-bottom: 30px;
+  color: #fff;
+  background-color: red;
+  font-weight: bold;
+  border: red 2px solid;
+  padding: 5px;
+  width: 230px;
+  text-align: center;
+  border-radius: 20px;
+  animation: change 7s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    color: #fff;
+    background-color: red;
+  }
+  50% {
+    color: red;
+    background-color: #fff;
+    scale: 1.05;
+  }
+  100% {
+    color: #fff;
+    background-color: red;
+  }
 }
 
 .result {
@@ -193,4 +227,23 @@ header h1 {
 
 footer {
   text-align: center;
+  margin-bottom: 80px;
+}
+
+footer p {
+  text-transform: capitalize;
+}
+
+.hit {
+  position: relative;
+}
+
+.hit::before {
+  content: "";
+  background: url(./images/hit.png) no-repeat center / cover;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10%;
+  left: 5px;
 }
