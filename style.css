@@ -87,7 +87,7 @@ main {
 }
 
 .carry {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: #fff;
   background-color: red;
   font-weight: bold;
@@ -96,7 +96,7 @@ main {
   width: 230px;
   text-align: center;
   border-radius: 20px;
-  animation: change 7s ease-in-out infinite;
+  /* animation: change 7s ease-in-out infinite; */
 }
 
 @keyframes change {
@@ -113,6 +113,10 @@ main {
     color: #fff;
     background-color: red;
   }
+}
+
+.total {
+  margin-bottom: 30px;
 }
 
 .result {
@@ -246,4 +250,172 @@ footer p {
   position: absolute;
   top: 10%;
   left: 5px;
+}
+
+.masa-b,
+.taka-b,
+.yuki-b,
+.kei-b,
+.nao-b,
+.masa-a,
+.mi-a,
+.aya-a,
+.nao-a,
+.kei-a,
+.yuki-a,
+.y_2019,
+.taka-a,
+.nao-a,
+.t_2019,
+.k_2019 {
+  position: relative;
+}
+
+.masa-b::before {
+  content: "";
+  background: url(images/masa.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  left: -28px;
+}
+
+.nao-b::before {
+  content: "";
+  background: url(images/nao.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  left: -28px;
+}
+
+.yuki-b::before {
+  content: "";
+  background: url(images/yuki.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  left: -28px;
+}
+
+.y_2019::before {
+  content: "";
+  background: url(images/yuki.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  left: 30px;
+}
+
+.t_2019::before {
+  content: "";
+  background: url(images/taka.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  left: 20px;
+}
+.k_2019::after {
+  content: "";
+  background: url(images/kei.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  right: 20px;
+}
+
+.kei-b::before {
+  content: "";
+  background: url(images/kei.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  left: -28px;
+}
+
+.taka-b::before {
+  content: "";
+  background: url(images/taka.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  left: -28px;
+}
+
+.masa-a::after {
+  content: "";
+  background: url(images/masa.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  right: -28px;
+}
+
+.mi-a::after {
+  content: "";
+  background: url(images/mi.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  right: -28px;
+}
+
+.nao-a::after {
+  content: "";
+  background: url(images/nao.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  right: -28px;
+}
+
+.yuki-a::after {
+  content: "";
+  background: url(images/yuki.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  right: -28px;
+}
+
+.taka-a::after {
+  content: "";
+  background: url(images/taka.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  right: -28px;
+}
+
+.aya-a::after {
+  content: "";
+  background: url(images/aya.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  right: -28px;
+}
+
+.kei-a::after {
+  content: "";
+  background: url(images/kei.png) no-repeat center / contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  right: -28px;
 }
