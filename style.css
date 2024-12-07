@@ -117,6 +117,7 @@ main {
 
 .total {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .result {
@@ -157,12 +158,12 @@ main {
 .container_spring {
   padding-bottom: 5%;
   margin-bottom: 30px;
-  border: 2px solid #e3a0e7;
+  border: 2px solid #f576f1;
   background-color: #fff;
 }
 
 .title_spring {
-  background-color: #e3a0e7;
+  background-color: #f576f1;
   text-align: center;
   margin-bottom: 30px;
   font-size: 20px;
@@ -184,7 +185,7 @@ main {
 .col_spring h3 {
   font-size: 16px;
   margin: 0 auto 10px;
-  background-color: #e3a0e7;
+  background-color: #f576f1;
   color: #fff;
   width: 25%;
 }
@@ -198,6 +199,20 @@ main {
   display: flex;
   margin: 5px auto;
   justify-content: center;
+  align-items: center;
+}
+
+.col_wrap p:nth-child(1),
+.col_wrap p:nth-child(3) {
+  flex: 1;
+  text-align: center;
+}
+.col_wrap p:nth-child(1) {
+  text-align: right;
+}
+
+.col_wrap p:nth-child(3) {
+  text-align: left;
 }
 
 .text-small {
@@ -277,7 +292,7 @@ footer p {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 2px;
+  top: -2px;
   left: -28px;
 }
 
@@ -287,7 +302,7 @@ footer p {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 2px;
+  top: -2px;
   left: -28px;
 }
 
@@ -297,37 +312,8 @@ footer p {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 2px;
+  top: -2px;
   left: -28px;
-}
-
-.y_2019::before {
-  content: "";
-  background: url(images/yuki.png) no-repeat center / contain;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: 2px;
-  left: 30px;
-}
-
-.t_2019::before {
-  content: "";
-  background: url(images/taka.png) no-repeat center / contain;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: 2px;
-  left: 20px;
-}
-.k_2019::after {
-  content: "";
-  background: url(images/kei.png) no-repeat center / contain;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: 2px;
-  right: 20px;
 }
 
 .kei-b::before {
@@ -336,7 +322,7 @@ footer p {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 2px;
+  top: -2px;
   left: -28px;
 }
 
@@ -346,7 +332,7 @@ footer p {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 2px;
+  top: -2px;
   left: -28px;
 }
 
@@ -356,7 +342,7 @@ footer p {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 2px;
+  top: -2px;
   right: -28px;
 }
 
@@ -366,7 +352,7 @@ footer p {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 2px;
+  top: -2px;
   right: -28px;
 }
 
@@ -376,7 +362,7 @@ footer p {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 2px;
+  top: -2px;
   right: -28px;
 }
 
@@ -386,7 +372,7 @@ footer p {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 2px;
+  top: -2px;
   right: -28px;
 }
 
@@ -396,7 +382,7 @@ footer p {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 2px;
+  top: -2px;
   right: -28px;
 }
 
@@ -406,7 +392,7 @@ footer p {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 2px;
+  top: -2px;
   right: -28px;
 }
 
@@ -416,6 +402,6 @@ footer p {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 2px;
+  top: -2px;
   right: -28px;
 }

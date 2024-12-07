@@ -13,5 +13,8 @@ document.querySelectorAll(".tab").forEach((tab) => {
     document
       .getElementById(this.getAttribute("data-tab"))
       .classList.add("active");
+
+    // ページのトップにスクロール
+    window.scrollTo(0, 0);
   });
 });
