@@ -267,16 +267,6 @@ footer p {
   left: 5px;
 }
 
-.volume {
-  font-size: 12px;
-  margin-right: 10px;
-}
-
-.volume-control {
-  display: flex;
-  align-items: center; /* 縦方向の中央揃え */
-}
-
 .mb_30 {
   margin-bottom: 30px;
 }
