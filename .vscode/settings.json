@@ -1,4 +1,4 @@
 {
     "editor.colorDecoratorsActivatedOn": "clickAndHover",
-    "editor.defaultColorDecorators": true
+    "editor.defaultColorDecorators": "auto"
 }
