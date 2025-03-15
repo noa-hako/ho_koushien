@@ -1,4 +1,5 @@
 {
-    "editor.colorDecoratorsActivatedOn": "clickAndHover",
-    "editor.defaultColorDecorators": "auto"
+  "editor.colorDecoratorsActivatedOn": "clickAndHover",
+  "editor.defaultColorDecorators": "auto",
+  "liveServer.settings.port": 5500
 }
