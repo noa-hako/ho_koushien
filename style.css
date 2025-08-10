@@ -234,7 +234,7 @@ main {
 }
 
 .gray {
-  background-color: #eee;
+  background-color: #aaa;
 }
 
 .light_green {
@@ -259,7 +259,7 @@ footer p {
 }
 
 .hit::before {
-  content: "";
+  content: '';
   background: url(./images/hit.png) no-repeat center / cover;
   width: 30px;
   height: 30px;
@@ -296,7 +296,7 @@ footer p {
 }
 
 .masa-b::before {
-  content: "";
+  content: '';
   background: url(images/masa.png) no-repeat center / contain;
   width: 20px;
   height: 20px;
@@ -306,7 +306,7 @@ footer p {
 }
 
 .nao-b::before {
-  content: "";
+  content: '';
   background: url(images/nao.png) no-repeat center / contain;
   width: 20px;
   height: 20px;
@@ -316,7 +316,7 @@ footer p {
 }
 
 .yuki-b::before {
-  content: "";
+  content: '';
   background: url(images/yuki.png) no-repeat center / contain;
   width: 20px;
   height: 20px;
@@ -326,7 +326,7 @@ footer p {
 }
 
 .kei-b::before {
-  content: "";
+  content: '';
   background: url(images/kei.png) no-repeat center / contain;
   width: 20px;
   height: 20px;
@@ -336,7 +336,7 @@ footer p {
 }
 
 .taka-b::before {
-  content: "";
+  content: '';
   background: url(images/taka.png) no-repeat center / contain;
   width: 20px;
   height: 20px;
@@ -346,7 +346,7 @@ footer p {
 }
 
 .masa-a::after {
-  content: "";
+  content: '';
   background: url(images/masa.png) no-repeat center / contain;
   width: 20px;
   height: 20px;
@@ -356,7 +356,7 @@ footer p {
 }
 
 .mi-a::after {
-  content: "";
+  content: '';
   background: url(images/mi.png) no-repeat center / contain;
   width: 20px;
   height: 20px;
@@ -366,7 +366,7 @@ footer p {
 }
 
 .nao-a::after {
-  content: "";
+  content: '';
   background: url(images/nao.png) no-repeat center / contain;
   width: 20px;
   height: 20px;
@@ -376,7 +376,7 @@ footer p {
 }
 
 .yuki-a::after {
-  content: "";
+  content: '';
   background: url(images/yuki.png) no-repeat center / contain;
   width: 20px;
   height: 20px;
@@ -386,7 +386,7 @@ footer p {
 }
 
 .taka-a::after {
-  content: "";
+  content: '';
   background: url(images/taka.png) no-repeat center / contain;
   width: 20px;
   height: 20px;
@@ -396,7 +396,7 @@ footer p {
 }
 
 .aya-a::after {
-  content: "";
+  content: '';
   background: url(images/aya.png) no-repeat center / contain;
   width: 20px;
   height: 20px;
@@ -406,7 +406,7 @@ footer p {
 }
 
 .kei-a::after {
-  content: "";
+  content: '';
   background: url(images/kei.png) no-repeat center / contain;
   width: 20px;
   height: 20px;
