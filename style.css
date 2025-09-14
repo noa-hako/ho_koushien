@@ -26,16 +26,16 @@ main {
   margin: 0 auto;
 }
 
-.navlist {
+.nav_list {
   position: fixed;
   width: 100%;
   bottom: 0;
   left: 0;
-  height: 50px;
+  height: 35px;
   z-index: 10;
 }
 
-.yearlist {
+.year_list {
   font-size: 14px;
   list-style: none;
   display: flex;
@@ -46,7 +46,7 @@ main {
   cursor: pointer;
 }
 
-.yearlist li {
+.year_list li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +75,7 @@ main {
 }
 
 .carry {
-  margin-bottom: 10px;
+  margin: 0 auto 30px;
   color: #fff;
   background-color: red;
   font-weight: bold;
@@ -84,28 +84,6 @@ main {
   width: 230px;
   text-align: center;
   border-radius: 20px;
-  /* animation: change 7s ease-in-out infinite; */
-}
-
-@keyframes change {
-  0% {
-    color: #fff;
-    background-color: red;
-  }
-  50% {
-    color: red;
-    background-color: #fff;
-    scale: 1.05;
-  }
-  100% {
-    color: #fff;
-    background-color: red;
-  }
-}
-
-.total {
-  margin-bottom: 30px;
-  text-align: center;
 }
 
 .result {
@@ -113,11 +91,15 @@ main {
   margin-bottom: 40px;
 }
 
+.total {
+  text-align: center;
+}
+
 .title_summer,
 .title_spring {
   position: relative;
   margin-bottom: 30px;
-  font-size: 20px;
+  font-size: 18px;
   padding: 5px 5px 5px 15px;
   scroll-margin-top: 20px;
 }
@@ -178,10 +160,10 @@ main {
 
 .col_spring h3 {
   font-size: 16px;
-  margin: 0 auto 10px;
-  background-color: #f576f1;
-  color: #fff;
-  width: 25%;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  background-color: hsl(302, 100%, 89%);
+  color: #000;
 }
 
 .col_wrap {
@@ -451,7 +433,7 @@ select:focus {
   position: relative;
   text-align: center;
   border-radius: 50%;
-  width: 10%;
+  width: 13%;
   aspect-ratio: 1 / 1;
   color: #fff;
 }
